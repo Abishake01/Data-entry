@@ -11,7 +11,6 @@ interface STUDENT {
   gender: string;
 }
 
-
 export default function Home() {
   const [students, setStudents] = useState<STUDENT[]>([]);
   const [form, setForm] = useState<STUDENT>({
